@@ -1,0 +1,158 @@
+/* Basic link color styling */
+a.ex1 {
+  color: pink;
+}
+
+/* Link state styling: default, visited, hover, and active states */
+a.ex2:link {
+  color: red;
+}
+
+a.ex2:visited {
+  color: green;
+}
+
+a.ex2:hover {
+  color: pink;
+}
+
+a.ex2:active {
+  color: blue;
+}
+
+/* Removing text decoration and setting hover styles */
+a.ex3 {
+  text-decoration: none;
+  color: purple;
+}
+
+a.ex3:hover {
+  text-decoration: underline;
+}
+
+a.ex3:active {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Background color styling for links with different states */
+a.ex4:link {
+  color: purple;
+  background-color: aqua;
+  font-weight: bold;
+}
+
+a.ex4:visited {
+  color: brown;
+}
+
+a.ex4:hover {
+  color: red;
+  background-color: greenyellow;
+}
+
+a.ex4:active {
+  background-color: red;
+  color: white;
+}
+
+/* Styling link as a button with hover effect */
+a.button:link, a.button:visited {
+  background-color: rgb(255, 69, 69);
+  color: white;
+  padding: 14px 25px;
+  border: 2px solid red;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+
+a.button:hover, a.button:active {
+  background-color: red;
+}
+
+/* Alternative button style */
+a.button01:link, a.button01:visited {
+  display: inline-block;
+  background-color: white;
+  border: 2px solid green;
+  text-decoration: none;
+  padding: 14px 25px;
+  color: black;
+}
+
+a.button01:hover, a.button01:active {
+  color: white;
+  background-color: green;
+}
+
+/* Demonstrating various cursor styles */
+p.auto {
+  cursor: auto;
+}
+
+p.crosshair {
+  cursor: crosshair;
+}
+
+p.default {
+  cursor: default;
+}
+
+/* Cursor styles with different directional resizing and actions */
+p.e-resize {
+  cursor: e-resize;
+}
+
+p.help {
+  cursor: help;
+}
+
+p.move {
+  cursor: move;
+}
+
+p.n-resize {
+  cursor: n-resize;
+}
+
+p.ne-resize {
+  cursor: ne-resize;
+}
+
+p.nw-resize {
+  cursor: nw-resize;
+}
+
+p.pointer {
+  cursor: pointer;
+}
+
+p.progress {
+  cursor: progress;
+}
+
+p.s-resize {
+  cursor: s-resize;
+}
+
+p.se-resize {
+  cursor: se-resize;
+}
+
+p.sw-resize {
+  cursor: sw-resize;
+}
+
+p.text {
+  cursor: text;
+}
+
+p.w-resize {
+  cursor: w-resize;
+}
+
+p.wait {
+  cursor: wait;
+}
